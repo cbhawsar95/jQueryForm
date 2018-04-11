@@ -1,0 +1,99 @@
+/*Css Style for Index Page of Jqouery Test Which is a slide down form page.*/
+div.container {
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 16px;
+    color: white;
+    background-color: red;
+    clear: left;
+    text-align: center;
+}
+#head{
+  margin: 0;
+  padding: 2px;
+}
+
+
+article {
+    border: 1px solid gray;
+    padding: 1px;
+    overflow: hidden;
+}
+#login,#registration,#inquiry,#feedback  {
+    padding: 15px;
+    color: blue;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    text-align: center;
+}
+
+#panel, #panel1, #panel2, #panel3{
+    padding: 15px;
+    border: solid 1px #c3c3c3; 
+    display: none;
+}
+
+fieldset{
+  margin-bottom: 50px;
+  border: 1px sloid #c3c3c3;
+}
+
+#submit{
+height:45px;
+border-radius:10px;
+background-color:green;
+color:#fff;
+font-size:18px;
+cursor:pointer
+}
+
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+
+}
+input[type=email] {
+width:82%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+}
+input[type=number] {
+width:20%;
+padding:10px;
+margin-top:10px;
+margin-right: 8px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+}
+
+textarea {
+width:82%;
+height:100px;
+padding:10px;
+resize:none;
+margin-top:10px;
+border:1px solid #ccc;
+font-size:16px;;
+}
+
+.error{
+  color:red;
+}
+/*#s1{
+  color:red; visibility:hidden;
+  }*/
+span{
+    color:red;
+}

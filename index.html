@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle/mystyle.css">
+  <script type="text/javascript" src="myscript/validation.js"></script>
+</head>
+<body>
+
+<div class="container">
+<header>
+   <h1 id="head"><marquee> SLIDE DOWN FORM LIST WITH VALIDATION</marquee></h1>
+</header>
+<article> 
+<div id="login">Login</div>
+<div id="panel">
+<form action="#" id="loginForm" name="loginForm">
+  <fieldset>
+    <legend>Login Form</legend>
+    First name:<span id="s1" >*</span><br>
+    <input type="text" id="fname" name="firstname" placeholder="Please Enter Your First Name" ><br><br>
+    Last name:<span id="s1" >*</span><br>
+    <input type="text" id="lname" name="lastname"  placeholder="Please Enter Your Last Name"><br><br>
+    EmailId:<span id="s1" >*</span><br>
+    <input type="email" id="email" name="email" placeholder="Please Enter Your EmailId"><br><br>
+    Password:<span id="s1" >*</span><br>
+    <input type="text" id="password" name="password" placeholder="Please Enter Your Password"><br><br>
+    <button id="submit" type="submit" value="Submit">Submit</button>
+  </fieldset>
+</form>
+</div>
+<div id="registration">Registration</div>
+<div id="panel1">
+<form action="#" name="registerForm" id="registerForm">
+  <fieldset>
+    <legend>Registration Form</legend>
+    First name:<span id="s1" >*</span><br>
+    <input type="text" id="fname1" name="firstname" placeholder="Please Enter Your First Name"><br><br>
+    Last name:<span id="s1" >*</span><br>
+    <input type="text" id="lname1" name="lastname" placeholder="Please Enter Your Last Name"><br><br>
+    EmailId:<span id="s1" >*</span><br>
+    <input type="email" id="email1" name="email" placeholder="Please Enter Your EmailId"><br><br>
+    Password:<span id="s1" >*</span><br>
+    <input type="text" id="password1" name="password" placeholder="Please Enter Your Password"><br><br>
+    Date Of Birth:<span id="s1" >*</span><br>
+    <input type="number" id="d" name="date" min="1" max="31" value="01" />
+    <input type="number" id="m" name="month" min="1" max="12" value="01" />
+    <input type="number" id="y"  name="year" min="1900" max="9999" value="1990" /><br><br>
+    <button id="submit" type="submit" value="Submit">Submit</button>
+  </fieldset>
+</form>
+</div>
+<div id="inquiry">Inquiry</div>
+<div id="panel2">
+<form action="#" name="inquiryForm" id="inquiryForm">
+  <fieldset>
+    <legend>Inquiry Form</legend>
+    First name:<span id="s1">*</span><br>
+    <input type="text" id="fname2" name="firstname" placeholder="Please Enter Your First Name"><br><br>
+    Last name:<span id="s1" >*</span><br>
+    <input type="text" id="lname2" name="lastname" placeholder="Please Enter Your Last Name"><br><br>
+    EmailId:<span id="s1" >*</span><br>
+    <input type="email" id="email2" name="email" placeholder="Please Enter Your EmailId"><br><br>
+    Password:<span id="s1">*</span><br>
+    <input type="text" id="password2" name="password" placeholder="Please Enter Your Password"><br><br>
+    <button id="submit" type="submit" value="Submit">Submit</button>
+  </fieldset>
+</form>
+</div>
+<div id="feedback">Feedback</div>
+<div id="panel3">
+<form action="#" name="feedbackForm" id="feedbackForm">
+  <fieldset>
+    <legend>Login Form</legend>
+    EmailId:<span id="s1" >*</span><br>
+    <input type="email" id="email3" name="email" placeholder="Please Enter Your EmailId"><br><br>
+    Give Your Feedback:<span id="s1" >*</span><br>
+    <textarea name="feedback1" id="feedback1" rows="5" cols="30" placeholder="Please Enter Your Feedback"></textarea><br><br>
+    <button id="submit" type="submit" value="Submit">Submit</button>
+  </fieldset>
+</form>
+</div>
+</article> 
+</div>
+</body>
+</html>
